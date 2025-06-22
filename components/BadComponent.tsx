@@ -1,5 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export const BadComponent=()=>{
-return( <div>  This is a bad component</div>)
-}
+const unused = 'I am unused'; 
+
+export const BadComponent = (props: any) => { 
+  console.log('Rendering BadComponent'); 
+
+  return <div>This is a bad component</div>;
+};
