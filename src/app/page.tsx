@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { GoodComponent } from '../../components/GoodComponent';
-// import {BadComponent} from '../../components/BadComponent';
+import { BadComponent } from '../../components/BadComponent';
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -56,10 +56,10 @@ export default function Home() {
           <h2 className="text-lg font-semibold">Good Component</h2>
           <GoodComponent />
         </div>
-        {/* <div className="mt-8 w-full border-t pt-4">
+        <div className="mt-8 w-full border-t pt-4">
           <h2 className="text-lg font-semibold">Good Component</h2>
           <BadComponent />
-        </div> */}
+        </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
