@@ -16,5 +16,7 @@ export const BadComponent = () => {
 
   console.log('Hello');
 
+  console.log('Test commit message');
+
   return <div>This is a bad component</div>;
 };
