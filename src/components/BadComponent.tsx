@@ -12,9 +12,10 @@
 import React from 'react';
 
 export const BadComponent = () => {
-console.log('Rendering BadComponent');
-console.log('Hello');
-console.log('Hello');
+  console.log('Rendering BadComponent');
+  console.log('Hello');
+  console.log('Hello');
+
   console.log('Hello');
 
   console.log('Test commit message');
